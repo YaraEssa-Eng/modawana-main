@@ -14,7 +14,7 @@ class ProfileController extends Controller
     public function profile($id)
     {
         $user_name = User::where('id', $id)->with('profile')->first();
-        $profile_inf = Profile::where('id', $id)->with('user')->first();
+        $profile_inf = Profile::where('id', $id)->with('user')->first(); 
         return view('site.profile.index', compact('user_name','profile_inf'));
     }
 

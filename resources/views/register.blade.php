@@ -123,7 +123,7 @@
                                     <div class="form-outline mb-4">
                                         <div class="card border-radius-10 shadow-sm hover-shadow">
                                             <div class="card-body bg-light-gray">
-                                                <label class="form-label" for="gender">Gender</label>
+                                                <label class="form-label" for="gender">Gender</label> 
                                                 <div class="d-flex justify-content-between">
                                                     <div class="form-check form-check-inline">
                                                         <input class="form-check-input animated-radio" type="radio" name="gender" id="male" value="male">

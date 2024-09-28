@@ -18,4 +18,4 @@ class AddGenderToUsersTable extends Migration
             $table->dropColumn('gender');
         });
     }
-}
+} 

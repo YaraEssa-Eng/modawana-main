@@ -297,7 +297,7 @@
                                         sit amet, consectetur adipiscing elit.</p>
                                     <ul class="list-unstyled mb-0">
                                         @if(!empty($profile_inf->professional_title))
-                                        <!-- عرض عنصر li إذا كانت البيانات غير فارغة -->
+                                        <!-- عرض عنصر li إذا كانت البيانات غير فارغة --> 
                                         <li class="d-flex align-items-center gap-3 mb-4">
                                             <i class="fa fa-briefcase text-dark fs-6"></i>
                                             <h6 class="fs-4 fw-semibold mb-0">{{ $profile_inf->professional_title }}</h6>
