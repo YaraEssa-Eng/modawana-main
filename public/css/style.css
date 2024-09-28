@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Cairo";
+    src: url("../font/Cairo-Regular.ttf"); /* adjust the path to your font file */
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: "Cairo", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#myTable_wrapper {
+        margin-top: 60px
+}
+.side_bar {
+    background-color: #616161;
+    color: #ffffff;
+    text-align: center;
+}
+
+.top_bar {
+    background-color: #616161;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.top_bar a {
+    color: #fff;
+}
+
+.logout_link {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu_item {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    background-color: #bdbdbd;
+    color: #000;
+}
+
+.menu_item_active {
+    background-color: #bdbdbd;
+    color: #000;
+}
+
+.menu_item i {
+    color: #fff;
+}
+
+.login_pad {
+    padding: 50px 0;
+}
+
+.col2 {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .login_pad {
+        padding: 20px 0;
+    }
+    .col2 {
+        display: none;
+    }
+}
+.ts-control .item {
+    padding: 0 10px !important;
+}
